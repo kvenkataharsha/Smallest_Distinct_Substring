@@ -22,10 +22,10 @@ for i in range(len(h)):                               #Finding the substring con
                     
             start += 1                                 #and update the start index
                  
-        substring_length = i - start + 1                      #and update the substring size
+        substring_lenghth = i - start + 1                      #and update the substring size
 
-        if minimum_length > substring_length:                        #and check if this substring is the minimum substring or not.if not we will upate the minimum lenghth
-            minimum_length = substring_length 
+        if minimum_length > substring_lenghth:                        #and check if this substring is the minimum substring or not.if not we will upate the minimum lenghth
+            minimum_length = substring_lenghth 
            
         
         current_length = start

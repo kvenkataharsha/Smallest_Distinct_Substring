@@ -22,13 +22,12 @@ for i in range(len(h)):                               #Finding the substring con
                     
             start += 1                                 #and update the start index
                  
-        substring_lenghth = i - start + 1                      #and update the substring size
+        substring_length = i - start + 1                      #and update the substring size
 
-        if minimum_length > substring_lenghth:                        #and check if this substring is the minimum substring or not.if not we will upate the minimum lenghth
-            minimum_length = substring_lenghth 
-            currrent_length = start 
-        else:
-            current_length = start
+        if minimum_length > substring_length:                        #and check if this substring is the minimum substring or not.if not we will upate the minimum lenghth
+            minimum_length = substring_length 
+           
+        
+        current_length = start
          
-answer = h[currrent_length: currrent_length + minimum_length]
-print(len(answer))
+print(len(str(h[current_length: current_length + minimum_length])))
